@@ -1,0 +1,9 @@
+package com.example.coffeemachine.exceptions;
+
+public class DataNotFoundException extends RuntimeException {
+
+    public DataNotFoundException(String message) {
+        super(message);
+    }
+
+}
